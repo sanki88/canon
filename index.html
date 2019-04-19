@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"> 
+
+    <title>Canon magazyn</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4">
+              <div class="sekcja_toners">
+                <div class="sekcja_toners_tittle" id="">Toner 29<br><small class="text-muted">IR-ADV C5030  / C5030 / C5035 / C5235 / C5240</small></div>
+                  <button onclick="toner29('cyan')" id="toner29_cyan" type="button" class="btn btn-primary toner"><div class="toner_text" id="toner29_cyan_text">Cyan</div><div class="toner_ilosc">12</div></button>
+                  <button onclick="toner29('magenta')" type="button" class="btn btn-danger toner"><div class="toner_text">Magenta</div><div class="toner_ilosc">8</div></button>
+                  <button onclick="toner29('yellow')" type="button" class="btn btn-warning toner"><div class="toner_text">Yellow</div><div class="toner_ilosc">15</div></button>
+                  <button onclick="toner29('black')" type="button" class="btn btn-dark toner"><div class="toner_text">Black</div><div class="toner_ilosc">12</div></button>
+                  <button onclick="pojemnik29()" type="button" class="btn btn-info pojemnik"><div class="pojmenik_text">Pojemnik na zużyty toner</div><div class="pojemmnik_ilosc">10</div></button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4">
+              <div class="sekcja_toners">
+                <div class="sekcja_toners_tittle">Toner 47<br><small class="text-muted">IR-ADV C250 / C350 / C351 </small></div>
+                  <button type="button" class="btn btn-primary toner"><div class="toner_text">Cyan</div><div class="toner_ilosc">10</div></button>
+                  <button type="button" class="btn btn-danger toner"><div class="toner_text">Magenta</div><div class="toner_ilosc">2</div></button>
+                  <button type="button" class="btn btn-warning toner"><div class="toner_text">Yellow</div><div class="toner_ilosc">12</div></button>
+                  <button type="button" class="btn btn-dark toner"><div class="toner_text">Black</div><div class="toner_ilosc">13</div></button>
+                  <button type="button" class="btn btn-info pojemnik"><div class="pojmenik_text">Pojemnik na zużyty toner</div><div class="pojemmnik_ilosc">13</div></button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4">
+              <div class="sekcja_toners">
+                <div class="sekcja_toners_tittle">Toner 51<br><small class="text-muted">IR-ADV C5535 / C5540 / C5550 / C5560</small></div>
+                  <button type="button" class="btn btn-primary toner"><div class="toner_text">Cyan</div><div class="toner_ilosc">7</div></button>
+                  <button type="button" class="btn btn-danger toner"><div class="toner_text">Magenta</div><div class="toner_ilosc">7</div></button>
+                  <button type="button" class="btn btn-warning toner"><div class="toner_text">Yellow</div><div class="toner_ilosc">3</div></button>
+                  <button type="button" class="btn btn-dark toner"><div class="toner_text">Black</div><div class="toner_ilosc">19</div></button>
+                  <button type="button" class="btn btn-info pojemnik"><div class="pojmenik_text">Pojemnik na zużyty toner</div><div class="pojemmnik_ilosc">18</div></button>
+              </div>
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <div class="sekcja_toners_b">
+                <div class="sekcja_toners_tittle">Toner 53<br><small class="text-muted">IR-ADV 4525 / 4535 / 4545 / 4551</small></div>
+                  <button type="button" class="btn btn-dark toner_b"><div class="toner_text">Black</div><div class="toner_ilosc">19</div></button>
+              </div>  
+            </div>  
+            <div class="col-6 col-md-3">
+            <div class="sekcja_toners_b">
+                  <div class="sekcja_toners_tittle">Toner 38<br><small class="text-muted">IR-ADV 4045 / 4051 / 4245 / 4251</small></div>
+                    <button type="button" class="btn btn-dark toner_b"><div class="toner_text">Black</div><div class="toner_ilosc">19</div></button>
+                </div>  
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="sekcja_toners_b">
+                  <div class="sekcja_toners_tittle">Toner 59<br><small class="text-muted">IR-ADV 4025 / 4035 / 4225 / 4235</small></div>
+                    <button type="button" class="btn btn-dark toner_b"><div class="toner_text">Black</div><div class="toner_ilosc">19</div></button>
+                  </div>  
+            </div>
+            <div class="col-6 col-md-3">
+                  <div class="sekcja_toners_b">
+                    <div class="sekcja_toners_tittle">Pojemnik<br><small class="text-muted">IR-ADV 4525 / 4535 / 4545 / 4551</small></div>
+                    <button type="button" class="btn btn-info toner_b"><div class="toner_text">Pojemnik na toner</div><div class="toner_ilosc">19</div></button>
+                </div>  
+            </div>
+          </div><br>
+    <div class="container">
+      <div id="list">
+
+
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

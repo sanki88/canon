@@ -1,0 +1,70 @@
+.sekcja_toners{
+    border: 1px solid #000;
+    height: 260px;
+    padding: 10px;
+}
+
+.sekcja_toners_b{
+    border: 1px solid #000;
+    height: 140px;
+    padding: 10px;
+}
+
+
+.toner{
+    float:left;
+    height: 60px;
+    width: 160px;
+    margin: 2px;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.toner_b{
+    float:left;
+    height: 60px;
+    width: 100%;
+    margin: 2px;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.toner_text {
+width: 70%;
+float:left;
+}
+
+.toner_ilosc{
+    width: 30%;
+    float:left;
+    font-size: 36px;
+    text-align: right;
+}
+
+.pojemnik {
+    height: 60px;
+    border-radius: 0px;
+    width: 322px;
+    margin: 2px;
+
+}
+
+.pojmenik_text{
+    width: 70%;
+    float: left;
+}
+
+.pojemmnik_ilosc{
+    width: 30%;
+    font-size: 36px;
+    text-align: right;
+    float: right;
+}
+
+.sekcja_toners_tittle{
+ text-align: right;
+}
+
+.alert{
+padding-top: 20px;
+}
